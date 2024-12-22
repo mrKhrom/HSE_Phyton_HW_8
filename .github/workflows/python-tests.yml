@@ -28,3 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         pytest CorrectTestCountSalary.py
+      run: |
+        pytest ErrorTestCountSalary.py
