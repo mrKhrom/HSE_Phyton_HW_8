@@ -1,7 +1,10 @@
 def test_calculate_monthly_salary():
     """
     Тесты для функции calculate_monthly_salary.
+    
     """
+    from CountSalary import calculate_monthly_salary
+    
     # Тест 2: Зарплата 250 000 выше порога 2.4 млн, но ниже 5 млн (ставка 13% и 15%)
     monthly_salary = 250_000
     _, total_gross, total_net = calculate_monthly_salary(monthly_salary)
